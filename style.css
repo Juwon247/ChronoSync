@@ -189,38 +189,51 @@ ul li a:hover, ul li a:active{
 #What-our-clients-say{
     padding: 20px;
 }
-.client-tab{
-    padding: 10px;
+.line1{
+    font-size: 18px;
 }
-.profile-card {
-    display: flex;
-    align-items: center;
-    border-radius: 16px;
-    width: fit-content;
+.what-our-clients-say-header span{
+    font-size: 17px;
+}
+.what-our-clients-say-body{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #ffece0;
+    border-radius: 0;
+    max-width: 1300px;
 }
 
-.profile-avatar {
+.client-tab1, .client-tab2{
+    margin-bottom: 32px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-size: 18px;
+}
+
+.profile-card{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+}
+.profile-avatar{
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    margin-right: 16px;
 }
-
-.profile-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .profile-name {
     font-weight: bold;
-    font-size: 20px;
     margin: 0;
 }
-
 .profile-location {
-    font-size: 18px;
-    color: #333;
-    margin: 4px 0 0 0;
+    margin: 0;
+    font-size: 14px;
+    color: #555;
 }
-
