@@ -77,7 +77,15 @@ ul li a:hover, ul li a:active{
 .line1{
     margin-bottom: 15px;
 }
-
+.pro1{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.pro2{
+    display: block;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
 .txtbody{
     margin-top: 20px;
     padding: 20px;
@@ -236,4 +244,8 @@ ul li a:hover, ul li a:active{
     margin: 0;
     font-size: 14px;
     color: #555;
+}
+.reviewtext{
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
