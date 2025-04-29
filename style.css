@@ -6,6 +6,7 @@
 }
 body{
     background: #FFEDE3;
+    background-size: cover;
     height: 120vh;
     display: flex;
     justify-content: center;
@@ -111,7 +112,7 @@ ul li a:hover, ul li a:active{
     border-radius: 4px;
 }
 .btn:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 lightsalmon, 0 6px 20px 0 lightsalmon;
 
 }
 
@@ -249,4 +250,9 @@ ul li a:hover, ul li a:active{
 .reviewtext{
     margin-bottom: 20px;
     margin-top: 10px;
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
 }
